@@ -80,8 +80,7 @@ export default {
             @click="editArticle(index)">
             <i class="fa-solid fa-pen-to-square"></i>
           </button>
-          <button class="bg-rose-300 w-[50px] h-[40px] rounded-lg ml-3" type="button" @v-model="articles"
-            @click="deleteArticle(index)">
+          <button class="bg-rose-300 w-[50px] h-[40px] rounded-lg ml-3" type="button" @v-model="articles" @click="deleteArticle(index)">
             <i class="fa-solid fa-trash-can"></i>
           </button>
         </span>
